@@ -14,7 +14,7 @@ $(document).ready(function() {
 
         for (let arrayUsuario of arrayUsuarios) {
             if (arrayUsuario.username === username && arrayUsuario.password === password) {
-                window.location.href = "../Inicio/index.html";
+                window.location.href = "../index.html";
                 return;
             }
         }
