@@ -213,7 +213,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
             const estilos = document.createElement("link");
             estilos.setAttribute("rel", "stylesheet");
-            estilos.setAttribute("href", "TrekSlash9.9.css");
+            estilos.setAttribute("href", "scott2.css");
 
 
             shadow.appendChild(estilos);

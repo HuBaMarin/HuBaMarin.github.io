@@ -105,8 +105,8 @@ span {
     display: inline-block;
     opacity: 0;
     transition: opacity 0.5s;
-    /*rounded border*/
     border-radius: 10px;
+    top: 6rem;
 
 }
 
