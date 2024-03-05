@@ -89,3 +89,31 @@ span {
 
 
 }
+
+.wrapper {
+    position: absolute;
+    background: white;
+    width: 343px;
+    height: 8vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    opacity: 0;
+    transition: opacity 0.5s;
+    /*rounded border*/
+    border-radius: 10px;
+
+}
+
+.wrapper:hover {
+    opacity: 1;
+}
+
+.info {
+    display: block;
+    width: fit-content;
+    height: 8vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.8rem;
+}

@@ -190,3 +190,40 @@ class MyButtonGroup extends HTMLElement {
 
 customElements.define('conjunto-botones', MyButtonGroup);
 
+window.addEventListener('DOMContentLoaded', () => {
+    class PopUpInfo extends HTMLElement {
+        constructor() {
+            super();
+        }
+
+        connectedCallback() {
+
+            const shadow = this.attachShadow({ mode: "open" });
+
+            const wrapper = document.createElement("span");
+            wrapper.setAttribute("class", "wrapper");
+
+
+            const info = document.createElement("span");
+            info.setAttribute("class", "info");
+
+
+            info.textContent = this.getAttribute("data-text");
+
+
+            const estilos = document.createElement("link");
+            estilos.setAttribute("rel", "stylesheet");
+            estilos.setAttribute("href", "TrekSlash9.9.css");
+
+
+            shadow.appendChild(estilos);
+
+
+            shadow.appendChild(wrapper);
+            wrapper.appendChild(info);
+
+        }
+    }
+
+    customElements.define("popup-info", PopUpInfo);
+});
