@@ -152,7 +152,7 @@ class MyButtonGroup extends HTMLElement {
                 case 'Condiciones de uso':
 
                     button2.addEventListener('click', () => {
-                        window.location.href = '../../Codigo/Condiciones/condiciones.html';
+                        window.location.href = '../Condiciones/condiciones.html';
                     });
 
                     break;

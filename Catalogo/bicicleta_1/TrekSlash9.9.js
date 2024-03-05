@@ -60,7 +60,7 @@ class MyButtonGroup extends HTMLElement {
                 case 'Inicio':
 
                     button.addEventListener('click', () => {
-                        window.location.href = '../../Inicio/index.html';
+                        window.location.href = '../../index.html';
                     });
 
                     break;
@@ -156,20 +156,20 @@ class MyButtonGroup extends HTMLElement {
                 case 'Politica de privacidad':
 
                     button2.addEventListener('click', () => {
-                        window.location.href = 'privacidad.html';
+                        window.location.href = '../../Privacidad/privacidad.html';
                     });
 
                     break;
                 case 'Condiciones de uso':
 
                     button2.addEventListener('click', () => {
-                        window.location.href = 'condiciones.html';
+                        window.location.href = '../../Condiciones/condiciones.html';
                     });
 
                     break;
                 case 'Politica de cookies':
                     button2.addEventListener('click', () => {
-                        window.location.href = 'cookies.html';
+                        window.location.href = '../../Cookies/Cookies.html';
                     });
                     break;
 
