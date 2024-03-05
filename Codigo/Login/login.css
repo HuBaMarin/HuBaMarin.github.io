@@ -1,0 +1,77 @@
+/**
+ * Estilos para el formulario de inicio de sesión
+ *
+ * @author Alex
+
+ */
+@font-face {
+    font-family: 'Helvetica';
+    src: local('Helvetica'), url('../Fuentes/Helvetica.woff') format('woff');
+}
+
+body {
+    color: black;
+    font-family: Helvetica;
+    font-size: 16px;
+}
+form {
+   /*align form center vertically horizontally*/
+    position: relative;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 20rem;
+    height: 20rem;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: white;
+    font-size: 16px;
+    box-shadow: 0 0 0.5rem black;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15rem;
+
+}
+
+form > * {
+    margin: 0.5rem 0;
+}
+
+form > *:last-child {
+    margin: 0;
+}
+
+form > input[type="submit"] {
+    margin-top: 1rem;
+}
+
+form > input[type="text"] {
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+form > input[type="password"] {
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+label {
+    text-align: center;
+}
+
+/**
+Icono de usuario
+*/
+span img {
+    width: 5rem;
+    height: 5rem;
+    margin-left: 4rem;
+}

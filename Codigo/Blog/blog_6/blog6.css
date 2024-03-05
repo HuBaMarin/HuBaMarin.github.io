@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: local('Helvetica'), url('../../Fuentes/Helvetica.woff') format('woff');
+}
+
+* {
+    font-family:'Helvetica'
+}
+
+body {
+    background-color: white;
+}
+#nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 15vw;
+    margin: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#footerpag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    bottom: 0;
+    color: #707070;
+    position: relative;
+    font-size: 20px;
+    width:37vw;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+
+
+article {
+ overflow: auto;
+    word-break: break-word;
+    width: 40vw;
+    height: 65vh;
+    color: white;
+    margin-bottom: 2em;
+    min-height: 100%;
+    padding: 0 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+article p{
+    font-size: 20px;
+    color: black;
+}
+
+
+ol {
+    list-style: circle;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: black;
+    gap: 2rem;
+}
+
+ol>li{
+    font-size: 20px;
+    color: black;
+
+}
+
+ol p{
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+    word-wrap: break-word;
+    overflow: auto;
+    word-break: break-word;
+    width: 30vw;
+}
+
+
+.linea{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), grey);
+    height: 2px;
+    width: 100%;
+    border-radius: 25px;
+
+
+}
+
+/*make image smaller using section*/
+section {
+    width: 40vw;
+    height: 65vh;
+    color: white;
+    margin-bottom: 2em;
+    min-height: 100%;
+    padding: 0 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section img {
+  width: 100%;
+    height: auto;
+}

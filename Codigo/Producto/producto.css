@@ -1,0 +1,83 @@
+
+@font-face {
+    font-family: 'Helvetica';
+    src: local('Helvetica'), url('../Fuentes/Helvetica.woff') format('woff');
+}
+
+* {
+    font-family:'Helvetica'
+}
+body {
+    background-color: white;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: auto;
+    margin: auto;
+}
+
+
+#footerpag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 50%;
+    margin: auto;
+
+}
+aside {
+    width: 34vw;
+    margin-left: 30vw;
+}
+
+img {
+    width: 100%;
+}
+
+
+article:nth-of-type(1) {
+    /*align to top, gap top 5vw*/
+    color: white;
+    font-weight: bold;
+   bottom:31vw;
+    position: relative;
+    margin-left: 80vw;
+    width: 7vw;
+}
+
+article:nth-of-type(2) {
+    color: white;
+    font-weight: bold;
+    bottom:31vw;
+    position: relative;
+    margin-left: 74vw;
+    width: 20vw;
+    height: auto;
+}
+
+article:nth-of-type(3) {
+    bottom:31vw;
+    position: relative;
+    margin-left: 74vw;
+    width: 20vw;
+    height: auto;
+}
+.css-selector {
+    background: linear-gradient(213deg, #00ffbd, #000000, #f34d4d, #ee73e9, #c5f353, #75ea84);
+    background-size: 1200% 1200%;
+
+    animation: AnimationName 11s ease infinite;
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}

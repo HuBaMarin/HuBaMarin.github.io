@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: local('Helvetica'), url('../Fuentes/Helvetica.woff') format('woff');
+}
+
+*{
+    font-family: 'Helvetica';
+}
+body {
+    background-color: white;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 50%;
+    margin: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#footerpag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 50%;
+    margin: auto;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 50%;
+    margin: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+
+.linea{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), grey);
+    height: 2px;
+    width: 100%;
+    border-radius: 25px;
+
+
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+}

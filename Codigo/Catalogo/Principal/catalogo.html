@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="catalogo.js"></script>
+    <link rel="stylesheet" href="catalogo.css">
+</head>
+<body>
+<conjunto-botones id="nav"></conjunto-botones>
+<p class="linea"></p>
+<main>
+    <article>
+        <div>
+            <img src="../../Imagenes/Bicicletas/xx1.webp" alt="img1">
+            <p>Trek Slash 9.9 XX1 Flight Attendant Gen 5</p>
+            <p>11.099,00 €</p>
+        </div>
+        <div>
+            <img src="../../Imagenes/Bicicletas/SupercaliberSLR99XOAXS-24-41728-A-Primary.webp" alt="img2">
+            <p>Supercaliber SLR 9.9 X0 AXS Gen 2</p>
+            <p>8.999€</p>
+        </div>
+        <div>
+            <img src="../../Imagenes/Bicicletas/Slash98XT-24-41814-C-Primary.webp" alt="img3">
+            <p>Slash 9.8 XT Gen 6</p>
+            <p>7.899,00 €</p>
+        </div>
+        <div>
+            <img src="../../Imagenes/Bicicletas/scott1.jpg" alt="img4">
+            <p>Bicicleta Scott Aspect 950 EQ 2024</p>
+            <p>720€</p>
+        </div>
+        <div>
+            <img src="../../Imagenes/Bicicleta%20Scott%20Spark%20RC%20Team%20Black.png" alt="img5">
+            <p>Bicicleta Scott Spark RC Team Black </p>
+            <p>4.880€</p>
+        </div>
+        <div>
+            <img src="../../Imagenes/Bicicletas/scott_scale_rc.png" alt="img6">
+            <p> Scott Scale RC SL TR</p>
+            <p>14.240,00 €</p>
+        </div>
+    </article>
+</main>
+<p class="linea"></p>
+<conjunto-botones id="footerpag"></conjunto-botones>
+
+<script>
+
+    const navegacion = document.getElementById('nav');
+    const footerpag = document.getElementById('footerpag');
+
+
+    navegacion.setButtons1(['Inicio', 'Blog', 'Contacto', 'Conocenos', 'Catalogo']);
+    footerpag.setButtons2(['Politica de privacidad', 'Condiciones de uso', 'Politica de cookies']);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: local('Helvetica'), url('../Fuentes/Helvetica.woff') format('woff');
+}
+
+*{
+    font-family:'Helvetica'
+}
+
+body {
+    background-color: white;
+}
+
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 30vw;
+    margin: auto;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+#footerpag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 30vw;
+    margin: auto;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/*put form in center, separate elements by 1vw gap and glow animation border on inputs*/
+form {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 65.94202898550725vh;
+    word-wrap: break-word;
+    text-align: justify;
+    color: white;
+    font-weight: bold;
+
+}
+
+form input:not([type='submit']) {
+    display: flex;
+    width: 35vw;
+    height: 2vw;
+}
+
+textarea{
+    display: flex;
+    width: 35vw;
+    height: 20vw;
+}
+
+label{
+    color: black;
+}
+
+
+input[type="text"], input[type="email"], textarea {
+    padding: 2vh;
+    margin: auto;
+    background:none;
+    border: 2px solid black;
+    font-size: min(max(1rem, 4vw), 16px);
+    font-weight: bold;
+
+    color: black;
+}
+
+
+
+input[type="text"]:hover::after, input[type="email"]:hover::after, textarea:hover::after {
+    width: 100%;
+}
+
+input[type="text"]::after, input[type="email"]::after, textarea::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: black;
+    transition: width .3s;
+}
+
+
+input[type="submit"]  {
+
+    padding: 2vh;
+    color: black;
+    margin: auto;
+    background:none;
+    border: none;
+    font-size: x-large;
+    font-weight: bold;
+
+}
+
+input[type="submit"]:hover {
+    /*background: linear-gradient(left, #f857a6, #ff8c7f);*/
+    background-color: transparent;
+    color: #ff8c7f;
+}
+
+input[type="submit"]::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ff8c7f;
+    transition: width .3s;
+}
+
+input:not([type="submit"]) {
+   font-size: x-large;
+}
+
+textarea {
+    font-size: x-large;
+}
+
+.linea{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), grey);
+    height: 2px;
+    width: 100%;
+    border-radius: 25px;
+
+
+}

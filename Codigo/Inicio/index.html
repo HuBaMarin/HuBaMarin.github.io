@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inicio</title>
+        <script src="index.js"></script>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+    <span>
+        <img src="../Imagenes/Usuario/Icono/Icono_neg.svg" alt="icono bicicleta">
+    </span>
+
+        <conjunto-botones id="nav"></conjunto-botones>
+        <p class="linea"></p>
+        <main>
+
+
+            <article class="texto">
+                <p>¡Descubre el mundo sobre dos ruedas con nuestro amplio
+                    catálogo de bicicletas!
+                    Ya sea que busques la velocidad de una bicicleta de
+                    carretera, la resistencia de una montañera
+                    o la comodidad de una bicicleta urbana, tenemos la bicicleta
+                    perfecta para ti. En nuestro blog,
+                    encontrarás consejos útiles, historias inspiradoras y las
+                    últimas tendencias en el mundo del ciclismo.
+                    Y si quieres saber más sobre quiénes somos y qué nos
+                    impulsa, visita nuestra sección de conócenos.
+                    ¡Siente la libertad, mejora tu salud y reduce tu huella de
+                    carbono con nuestras bicicletas!
+                    ¡Ven y encuentra tu compañera de viaje perfecta hoy! 🚲</p>
+            </article>
+
+        </main>
+        <p class="linea"></p>
+        <conjunto-botones id="footerpag"></conjunto-botones>
+
+        <script>
+
+            const navegacion = document.getElementById('nav');
+            const footerpag = document.getElementById('footerpag');
+
+
+            navegacion.setButtons1(['Inicio', 'Blog', 'Conocenos','Catalogo']);
+            footerpag.setButtons2(['Politica de privacidad', 'Condiciones de uso', 'Politica de cookies', 'Contacto']);
+
+
+
+
+
+        </script>
+
+
+    </body>
+</html>

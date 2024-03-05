@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Producto</title>
+    <link rel="stylesheet" href="producto.css">
+
+</head>
+<body>
+
+<conjunto-botones id="nav"></conjunto-botones>
+
+<div class="linea_nav"></div>
+<main>
+    <aside>
+        <div>
+            <img src="../Imagenes/Bicicletas/ciclistas_blog.jpeg" alt="ciclistas">
+        </div>
+    </aside>
+
+    <article>
+        <p>Lorem Ipsum</p>
+    </article>
+
+    <article>
+        <h2>Características principales</h2>
+
+
+            <ul>
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+                <li>Elemento 3</li>
+                <li>Elemento 4</li>
+                <li>Elemento 5</li>
+            </ul>
+
+    </article>
+
+    <article>
+        <button>Comprar</button>
+        <button>Anadir al carrito</button>
+        <button class="tercerboton">Volver</button>
+    </article>
+</main>
+
+<conjunto-botones id="footerpag"></conjunto-botones>
+
+
+<script src="https://unpkg.com/jquery@3.7.1/dist/jquery.js"></script>
+<script src="producto.js"></script>
+
+<script>
+
+    const navegacion = document.getElementById('nav');
+    const footerpag = document.getElementById('footerpag');
+
+
+    navegacion.setButtons1(['Inicio', 'Blog', 'Contacto', 'Conocenos','Catalogo']);
+    footerpag.setButtons2(['Politica de privacidad', 'Condiciones de uso', 'Politica de cookies']);
+
+</script>
+</body>
+</html>

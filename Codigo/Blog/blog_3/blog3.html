@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arreglar pinchazo</title>
+    <link rel="stylesheet" href="blog3.css">
+    <script src="blog3.js"></script>
+</head>
+<body>
+<conjunto-botones id="nav"></conjunto-botones>
+<p class="linea"></p>
+<main>
+    <div>
+        <img src="../../Imagenes/Blog/pinchazos_bicicleta.jpg" alt="imagen pinchazo">
+    </div>
+    <p>Para arreglar un pinchazo se necesita:</p>
+    <ol>
+        <li>Poner la bici al rev&eacute;s y quitar la rueda.</li>
+        <li>Desinflar la rueda y retirar la cubierta.</li>
+        <li>Localizar el pinchazo hinchando la c&aacute;mara o sumergi&eacute;ndola en agua.</li>
+        <li>Lijar la zona del pinchazo y aplicar pegamento de contacto.</li>
+        <li>Colocar el parche adecuado y presionar firmemente.</li>
+        <li>Reemplazar la cubierta e inflar la rueda.</li>
+    </ol>
+</main>
+<p class="linea"></p>
+<conjunto-botones id="footerpag"></conjunto-botones>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+
+    const navegacion = document.getElementById('nav');
+    const footerpag = document.getElementById('footerpag');
+
+
+    navegacion.setButtons1(['Inicio', 'Blog', 'Contacto', 'Conocenos', 'Catalogo']);
+    footerpag.setButtons2(['Politica de privacidad', 'Condiciones de uso', 'Politica de cookies']);
+
+</script>
+</body>
+</html>
