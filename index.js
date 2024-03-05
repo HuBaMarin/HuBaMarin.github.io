@@ -75,25 +75,25 @@ class MyButtonGroup extends HTMLElement {
                 case 'Inicio':
 
                     button.addEventListener('click', () => {
-                        window.location.href = 'Inicio/index.html';
+                        window.location.href = 'index.html';
                     });
 
                     break;
                 case 'Blog':
 
                     button.addEventListener('click', () => {
-                        window.location.href = '../Blog/principal/blog.html';
+                        window.location.href = '../HuBaMarin.github.io/Blog/principal/blog.html';
                     });
 
                     break;
                 case 'Conocenos':
                     button.addEventListener('click', () => {
-                        window.location.href = '../Conocenos/conocenos.html';
+                        window.location.href = '../HuBaMarin.github.io/Conocenos/conocenos.html';
                     });
                     break;
                 case 'Catalogo':
                     button.addEventListener('click', () => {
-                        window.location.href = '../Catalogo/principal/catalogo.html';
+                        window.location.href = '../HuBaMarin.github.io/Catalogo/principal/catalogo.html';
                     })
                     break;
 

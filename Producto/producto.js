@@ -35,7 +35,7 @@ class MyButtonGroup extends HTMLElement {
                 case 'Inicio':
 
                     button.addEventListener('click', () => {
-                        window.location.href = 'index.html';
+                        window.location.href = '../index.html';
                     });
 
                     break;
