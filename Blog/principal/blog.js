@@ -153,7 +153,7 @@ class MyButtonGroup extends HTMLElement {
                     break;
                 case 'Politica de cookies':
                     button2.addEventListener('click', () => {
-                        window.location.href = '../../Cookies/cookies.html';
+                        window.location.href = '../../Cookies/Cookies.html';
                     });
                     break;
 
