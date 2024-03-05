@@ -71,6 +71,11 @@ class MyButtonGroup extends HTMLElement {
                     });
 
                     break;
+                case 'Contacto':
+                    button.addEventListener('click', () => {
+                        window.location.href = '../Contacto/contacto.html';
+                    });
+                    break;
                 case 'Conocenos':
                     button.addEventListener('click', () => {
                         window.location.href = '../Conocenos/conocenos.html';
@@ -157,12 +162,7 @@ class MyButtonGroup extends HTMLElement {
                     break;
                 case 'Politica de cookies':
                     button2.addEventListener('click', () => {
-                        window.location.href = '../Cookies/cookies.html';
-                    });
-                    break;
-                case 'Contacto':
-                    button2.addEventListener('click', () => {
-                        window.location.href = '../Contacto/contacto.html';
+                        window.location.href = '../Cookies/Cookies.html';
                     });
                     break;
 
