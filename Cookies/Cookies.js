@@ -78,7 +78,7 @@ class MyButtonGroup extends HTMLElement {
                     break;
                 case 'Catalogo':
                     button.addEventListener('click', () => {
-                        window.location.href = '../Catalogo/principal/catalogo.html';
+                        window.location.href = '../Catalogo/Principal/catalogo.html';
                     })
                     break;
             }
