@@ -56,7 +56,7 @@ class MyButtonGroup extends HTMLElement {
               
               `;
             const button = document.createElement('button');
-
+//
             switch (buttonName) {
                 case 'Inicio':
 
